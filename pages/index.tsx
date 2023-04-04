@@ -28,7 +28,40 @@ export default function Home() {
                     <a href="/about">About us</a>
                 </nav>
             </header>
-            <main className={styles.main}></main>
+            <main className={styles.main}>
+                <h2> Events in London</h2>
+                <p>
+                    {" "}
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsam saepe quasi, harum nisi autem eaque exercitationem
+                    quis, atque laboriosam nulla quae, et dicta aliquid quas
+                    cupiditate fugit tenetur maxime ipsum.
+                </p>
+                <a href="http://">
+                    <img  />
+                </a>
+                <h2> Events in Sanfransicco</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Est dolor repellat fugit modi enim facere commodi id!
+                    Tempora eum consequatur quas quisquam numquam est veritatis
+                    quaerat ex eligendi? Architecto, deleniti!
+                </p>
+                <a href="http://">
+                    <img  />
+                </a>
+                <h2> Events in Barcelona</h2>
+                <p> lor
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Velit, sint. Harum laborum expedita beatae doloribus,
+                    provident animi architecto. Ea omnis possimus repellendus
+                    beatae eum ullam, voluptatem molestias distinctio architecto
+                    praesentium.
+                </p>
+                <a href="http://">
+                    <img  />
+                </a>
+            </main>
             <footer className={styles.footer}>footer</footer>
         </>
     );
